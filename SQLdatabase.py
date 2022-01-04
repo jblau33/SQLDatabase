@@ -12,7 +12,9 @@ row = results.fetchone()
 print("row = ", row)
 time = row[0]
 print("time = ",time)
+print("time2 = ",time)
 connection.close()
+
 
 
 # with sqlite3.connect("test_database.db") as connection:
